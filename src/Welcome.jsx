@@ -37,13 +37,13 @@ export default function(Welcome) {
                         <a href="/" className="btn">Register <img src="/" alt="oneArrow" /></a>
                         <a href="http://"  className="btn" target="_blank" rel="noopener noreferrer">Donate</a>
                     </div>
-                    <h4>Founder's Friday is more than just a meetup — it's a movement.</h4>
+                    <p>Founder's Friday is more than just a meetup — it's a movement.</p>
                 </div>
             </div>
        </div>
        <div className="row secondPage">
             <div className="col-md-6">
-                <p>Founders Friday</p>
+                <h4>Founders Friday</h4>
                 <h1>What Happens At Founders Friday</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac rutrum felis. Nulla nibh lorem, facilisis vel est at, vehicula dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
                 <a href="http://"  className="btn" target="_blank" rel="noopener noreferrer">Learn More</a>
@@ -51,6 +51,48 @@ export default function(Welcome) {
             <div className="col-md-6">
                 <img src="/" alt="oneArrow" />
             </div>
+       </div>
+       <div className="thirdPage">
+           <h4>Sponsor The Next Friday</h4> 
+           <h1>Why Sponsor Founders Friday?</h1>
+            <div className="row">
+                <div className="col-md-6">
+                    <img src="/" alt="brandMission" />
+                </div>
+                <div className="col-md-6">
+                    <div>How To Sponsor</div>
+                    <p><i>Ready to Make an Impact?</i></p>
+                    <h5>Fill out the form below or contact us at [contact email/phone number] to learn more about how you can sponsor the next Founders Friday</h5>
+                    <form action="">
+                        <div className="individualDetails d-flex">
+                            <div className="nameInput">
+                                <h5>Name</h5>
+                                <input type="text" placeholder="Full name"/>
+                                
+                            </div>
+                            <div className="nameInput">
+                                <h5>Company (optional)</h5>
+                                <input type="text" placeholder="Company name"/>
+                                
+                            </div>
+                        </div>
+                        <div className="contactDetails d-flex">
+                            <div className="emailInput">
+                                <h5>Email</h5>
+                                <input type="email" name="/" id="/" placeholder="Email address" />
+                                
+                            </div>
+                            <div className="numberInput">
+                                <h5>Phone</h5>
+                                <input type="text" placeholder="Phone number"/>
+                               
+                            </div>
+                        </div>
+                        <a href="http://" target="_blank" rel="noopener noreferrer" className="btn">Sponsor</a>
+                    </form>
+                </div>
+            </div>
+            
        </div>
     </div>
     );
