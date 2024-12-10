@@ -108,7 +108,7 @@ export default function(Welcome) {
             <div className="col-md-6">
                 <img src="/" alt="logo" />
             </div>
-            <div className="col text-center">
+            <div className="col-12 text-center">
                 <h3>Register And Be Part of Our Community</h3>
                 <p>Join our community of over 1000+ founders, developers, and tech junkies in general.Be inspired by people who live to inspire!</p>
                 <img src="/" alt="founderFaces" />
@@ -122,8 +122,21 @@ export default function(Welcome) {
                 <h5>Join us in our mission to transform ideas into impact and shape the future of Nigeria’s startup landscape.</h5>
                 <a href="/" className="btn">Register </a>
             </div>
-            <div className="col">
-                
+            <div className="col-12 text-center">
+                <h3>What Do Our Attendees Have To Say?</h3>
+                <p>Well See For Yourself</p>
+                <img src="/" alt="testimonyPics" />
+            </div>
+            <h3>FAQs</h3>
+            <div className="col-md-6">
+                <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a> <br />
+                <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a> <br />
+                <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a>
+            </div>
+            <div className="col-md-6">
+                <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a> <br />
+                <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a> <br />
+                <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a>
             </div>
        </div>
     </div>
