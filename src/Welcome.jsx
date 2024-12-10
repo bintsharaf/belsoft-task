@@ -94,6 +94,38 @@ export default function(Welcome) {
             </div>
             
        </div>
+       <div className="fourthPage row">
+            <div className="col-md-6">
+                <h2>Founders Friday is coming to</h2>
+                <ul>
+                    <li>Abuja</li>
+                    <li>Kaduna</li>
+                    <li>Kano</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac rutrum felis. Nulla nibh lorem, facilisis vel est at, vehicula dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                <a href="http://" target="_blank" rel="noopener noreferrer" className="btn">Register</a>
+            </div>
+            <div className="col-md-6">
+                <img src="/" alt="logo" />
+            </div>
+            <div className="col text-center">
+                <h3>Register And Be Part of Our Community</h3>
+                <p>Join our community of over 1000+ founders, developers, and tech junkies in general.Be inspired by people who live to inspire!</p>
+                <img src="/" alt="founderFaces" />
+                <a href="/" className="btn">Register Now</a>
+            </div>
+            <div className="col-md-6">
+                <img src="/" alt="meetingPic" />
+            </div>
+            <div className="col-md-6">
+                <p>At Founder’s Friday, Every Friday Is a Learning Experience!</p>
+                <h5>Join us in our mission to transform ideas into impact and shape the future of Nigeria’s startup landscape.</h5>
+                <a href="/" className="btn">Register </a>
+            </div>
+            <div className="col">
+                
+            </div>
+       </div>
     </div>
     );
 }
