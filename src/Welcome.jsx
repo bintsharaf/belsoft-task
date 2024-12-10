@@ -139,6 +139,11 @@ export default function(Welcome) {
                 <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a>
             </div>
        </div>
+       <div className="footer">
+           <img src="/" alt="founderlogo" />
+            <h3>Want To Be A Part Of Abuja’s Biggest Tech Community?</h3>
+            <a href="/" className="btn">Register For Our Next Event</a>
+       </div>
     </div>
     );
 }
