@@ -143,7 +143,22 @@ export default function(Welcome) {
            <img src="/" alt="founderlogo" />
             <h3>Want To Be A Part Of Abuja’s Biggest Tech Community?</h3>
             <a href="/" className="btn">Register For Our Next Event</a>
+            <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
        </div>
+       
     </div>
     );
 }
