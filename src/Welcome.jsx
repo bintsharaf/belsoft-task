@@ -41,8 +41,16 @@ export default function(Welcome) {
                 </div>
             </div>
        </div>
-       <div className="secondPa">
-
+       <div className="row secondPage">
+            <div className="col-md-6">
+                <p>Founders Friday</p>
+                <h1>What Happens At Founders Friday</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac rutrum felis. Nulla nibh lorem, facilisis vel est at, vehicula dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                <a href="http://"  className="btn" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+            <div className="col-md-6">
+                <img src="/" alt="oneArrow" />
+            </div>
        </div>
     </div>
     );
