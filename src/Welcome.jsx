@@ -23,13 +23,26 @@ export default function(Welcome) {
                     <h6>Join Us for our next meetup on the 26th of July 2024</h6>
 
                 </div>
-                <div className="col-6">
+                <div className="col-md-6">
                     <img src="/" alt="founderAlbum" />
                 </div>
-                <div className="">
-                    
+                <div className="col-md-6">
+                    <img src="/" alt="groupPicture" />
+                </div>
+                <div className="col-md-6">
+                    <h3>Who Are We?</h3>
+                    <p>Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders, innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
+                    <div>
+
+                        <a href="/" className="btn">Register <img src="/" alt="oneArrow" /></a>
+                        <a href="http://"  className="btn" target="_blank" rel="noopener noreferrer">Donate</a>
+                    </div>
+                    <h4>Founder's Friday is more than just a meetup — it's a movement.</h4>
                 </div>
             </div>
+       </div>
+       <div className="secondPa">
+
        </div>
     </div>
     );
