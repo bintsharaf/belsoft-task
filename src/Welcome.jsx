@@ -3,15 +3,18 @@ import "./Welcome.css"
 export default function(Welcome) {
     return (<div className="Welcome">
         <div>
-            <nav>
-            <   img src="/" alt="founderLogo" />
+            
+            <nav className="d-flex justify-content-between">
+            <   img src="src" alt="founderLogo" />
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About Us</a></li>
                     <li><a href="/">Gallary</a></li>
+                    <li><a href="/" className="btn">Register <img src="/" alt="oneArrow" /></a></li>
                 </ul>
-                <a href="/" className="btn">Register <img src="/" alt="oneArrow" /></a>
+                
             </nav>
+            
        </div>
        <div className="firstPage">
             <div className="row">
