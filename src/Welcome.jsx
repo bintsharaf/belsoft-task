@@ -1,11 +1,15 @@
 import React from "react";
-import "./Welcome.css"
+import "./Welcome.css";
+
+
+
+
 export default function(Welcome) {
     return (<div className="Welcome">
         <div>
             
             <nav className="d-flex justify-content-between">
-            <   img src="src" alt="founderLogo" />
+            <   img src={src/assets} alt="founderLogo" />
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About Us</a></li>
@@ -19,7 +23,7 @@ export default function(Welcome) {
        <div className="firstPage">
             <div className="row">
                 <div className="col-6">
-                    <h5>Join our premier monthly meetup for startup founders and tech visionaries</h5>
+                   <h5>Join our premier monthly meetup for startup founders and tech visionaries</h5>
                     <h2>Connect, Collaborate, Innovate!</h2>
                     <p>Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.</p>
                     <a href="/" className="btn">Register For Our Next Event <img src="/" alt="doubleArrow" /></a>
