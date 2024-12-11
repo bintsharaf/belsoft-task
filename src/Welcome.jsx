@@ -6,10 +6,13 @@ import "./Welcome.css";
 
 export default function(Welcome) {
     return (<div className="Welcome">
+        <body>
         <div>
-            
+           
+                
+           <header>
             <nav className="d-flex justify-content-between">
-            <   img src={src/assets} alt="founderLogo" />
+            <   img src = "/images/founderLogo.png " alt="founderLogo" />
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">About Us</a></li>
@@ -18,7 +21,7 @@ export default function(Welcome) {
                 </ul>
                 
             </nav>
-            
+            </header>
        </div>
        <div className="firstPage">
             <div className="row">
@@ -164,8 +167,11 @@ export default function(Welcome) {
     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
   </li>
 </ul>
+
        </div>
-       
+      
+        
+      </body> 
     </div>
     );
 }
