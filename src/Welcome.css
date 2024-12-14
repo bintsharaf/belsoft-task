@@ -1,4 +1,9 @@
-body {
+:root {
+    --text-color: #000000;
+    --brand-color: #9524FF;
+}
+
+.Welcome {
     font-family: "Montserrat", serif;
 }
 h1 {

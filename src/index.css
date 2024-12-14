@@ -1,0 +1,69 @@
+:root {
+    --text-color: #000000;
+    --brand-color: #9524FF;
+}
+
+.Header {
+    font-family: "Montserrat", serif;
+
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+nav {
+    border-bottom: 0.5px solid rgb(117, 104, 126, 0.4);
+    border-top: 0.5px solid rgb(117, 104, 126, 0.4);
+    background-color: #FDF7FF;
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px 60px ;
+}
+
+nav ul {
+    padding: 0;
+    margin: 16px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 25px;
+    font-size: 24px;
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+
+}
+
+nav li .btn-styling {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border: 2px solid var(--brand-color);
+    color: var(--brand-color);
+    border-radius: 15px;
+    margin-left: 50px;
+}
+nav a:hover,
+nav li.active a {
+    color: var(--brand-color);
+}    
