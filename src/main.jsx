@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
                     <li><a href="/">About Us</a></li>
                     <li><a href="/">Gallary</a></li>
                     <li><a href="/">Contact Us</a></li>
-                    <li><a href="/" className="btn btn-styling">Register <i class="fa-solid fa-arrow-right"></i></a></li>
+                    <li><a href="/" className="btn nav-btn">Register <i class="fa-solid fa-arrow-right"></i></a></li>
                 </ul>
                 
             </nav>

@@ -1,6 +1,7 @@
 :root {
     --text-color: #000000;
-    --brand-color: #9524FF;
+    --light-brand-color: #9524FF;
+    --bold-brand-color: #5C00B3;
 }
 
 .Welcome {
@@ -17,4 +18,45 @@ h3 {
 }
 h5 {
     font-size: 18px;
+}
+.firstPage {
+    margin-top: 60px;
+}
+.firstPage h5 {
+    font-weight: 600;
+    line-height: 22px;
+    width: 822px;
+    height: 22px;
+    font-size: 14px;
+    color: #000000;
+}
+.firstPage h2 {
+    font-weight: 700;
+    width: 822px;
+    height: 63px;
+    font-size: 41px;
+    color: var(--bold-brand-color);
+}
+.firstPage p {
+    font-size: 17px;
+    font-weight: 400;
+    width: 590px;
+    height: 180px;
+    line-height: 36px;
+    margin-top: 90px;
+}
+.firstPage .btn-branding {
+    
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--light-brand-color);
+    border-radius: 40px;
+    border: 2px solid var(--light-brand-color);
+    padding: 10px 20px;
+}
+.firstPage h6 {
+    font-weight: 600;
+    color: #6750A4;
+    text-shadow: #00000040;
+    font-size: 12px;
 }

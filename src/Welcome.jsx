@@ -10,19 +10,20 @@ export default function(Welcome) {
         
        <div className="firstPage">
             <div className="row">
-                <div className="col-6">
+                <div className="col-md-6 mt-4">
                    <h5>Join our premier monthly meetup for startup founders and tech visionaries</h5>
-                    <h2>Connect, Collaborate, Innovate!</h2>
-                    <p>Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.</p>
-                    <a href="/" className="btn">Register For Our Next Event <img src="/" alt="doubleArrow" /></a>
-                    <h6>Join Us for our next meetup on the 26th of July 2024</h6>
+                    <h2 className="position-absolute">Connect, Collaborate, Innovate!</h2>
+                    <p className="mb-5">Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.</p>
+                    <a href="/" className="btn btn-branding mb-3">Register For Our Next Event </a>
+                    <h6 >Join Us for our next meetup on the 26th of July 2024</h6>
 
                 </div>
                 <div className="col-md-6">
-                    <img src="/" alt="founderAlbum" />
+                    
+                    <img src= "/images/sectionOnePic.png" alt= "founderAlbum" className="img-fluid"/>
                 </div>
                 <div className="col-md-6">
-                    <img src="/" alt="groupPicture" />
+                    <img src= "/" alt="groupPicture" />
                 </div>
                 <div className="col-md-6">
                     <h3>Who Are We?</h3>
