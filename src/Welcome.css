@@ -72,3 +72,38 @@ h5 {
     font-size: 10px;
     font-weight: 700;
 }
+.firstPage h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.firstPage .aboutFounder p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 596px;
+    height: 170px;
+    line-height: 28px;
+    
+    color: #8E8E93;
+}
+.firstPage .aboutFounder .line {
+    max-height: 470px;
+    
+}
+.firstPage .aboutFounder .register-btn {
+    color: white;   
+    background-color: #A649FF;
+    border-radius: 40px; 
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 50px;
+}
+.firstPage .aboutFounder .donate-btn {
+    color: #A649FF;
+    border: 3px solid #A649FF;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 50px;
+}

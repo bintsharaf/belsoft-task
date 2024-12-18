@@ -23,18 +23,22 @@ export default function(Welcome) {
                     
                     <img src= "/images/sectionOnePic.png" alt= "founderAlbum" className="img-fluid"/>
                 </div>
+                <div></div>
                 <div className="col-md-6">
-                    <img src= "/" alt="groupPicture" />
+                    <img src= "/images/sectionTwoPic.png" alt="groupPicture" className="img-fluid"/>
                 </div>
-                <div className="col-md-6">
-                    <h3>Who Are We?</h3>
-                    <p>Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders, innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
+                <div className="col-md-6 aboutFounder d-flex justify-content-center p-4">
+                    <div ><img src= "/images/lineOne.png" alt="line" className="line mt-2" />
+                    </div>
                     <div>
-
-                        <a href="/" className="btn">Register <img src="/" alt="oneArrow" /></a>
-                        <a href="http://"  className="btn" target="_blank" rel="noopener noreferrer">Donate</a>
+                    <h3>Who Are We?</h3>
+                    <p className="mt-5 ">Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders, innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
+                    <div>
+                        <a href="/" className="btn register-btn">Register <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="http://"  className="btn donate-btn" target="_blank" rel="noopener noreferrer">Donate</a>
                     </div>
                     <p>Founder's Friday is more than just a meetup — it's a movement.</p>
+                    </div>
                 </div>
             </div>
        </div>
