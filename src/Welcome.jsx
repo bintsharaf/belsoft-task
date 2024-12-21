@@ -19,7 +19,7 @@ export default function(Welcome) {
                     <img src="/images/icons.svg" alt="brand-visibility" className="icons" />
                     <div className="callToAction mt-4">Become a collaborator today</div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 vectorOne">
                     
                     <img src= "/images/sectionOnePic.png" alt= "founderAlbum" className="img-fluid"/>
                 </div>
@@ -33,26 +33,28 @@ export default function(Welcome) {
                     <div>
                     <h3>Who Are We?</h3>
                     <p className="mt-5 ">Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders, innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
-                    <div>
+                    <div className="btns">
                         <a href="/" className="btn register-btn">Register <i class="fa-solid fa-arrow-right"></i></a>
                         <a href="http://"  className="btn donate-btn" target="_blank" rel="noopener noreferrer">Donate</a>
                     </div>
-                    <p>Founder's Friday is more than just a meetup — it's a movement.</p>
+                    <div className="firstLastPara">Founder's Friday is more than just a meetup — it's a movement.</div>
                     </div>
                 </div>
             </div>
        </div>
-       <div className="row secondPage">
+    <div className="secondPage">  
+       <div className="row ">
             <div className="col-md-6">
                 <h4>Founders Friday</h4>
                 <h1>What Happens At Founders Friday</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac rutrum felis. Nulla nibh lorem, facilisis vel est at, vehicula dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-                <a href="http://"  className="btn" target="_blank" rel="noopener noreferrer">Learn More</a>
+                <p className="mt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac rutrum felis. Nulla nibh lorem, facilisis vel est at, vehicula dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                <a href="http://"  className="btn learn-btn mt-2" target="_blank" rel="noopener noreferrer">Learn More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div className="col-md-6">
-                <img src="/" alt="oneArrow" />
+                <img src="/images/sectionTwoPics.png" alt="picsTwo" className="img-fluid" />
             </div>
        </div>
+    </div>    
        <div className="thirdPage">
            <h4>Sponsor The Next Friday</h4> 
            <h1>Why Sponsor Founders Friday?</h1>
