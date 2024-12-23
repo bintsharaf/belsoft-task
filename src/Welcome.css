@@ -19,9 +19,7 @@ h3 {
 h5 {
     font-size: 18px;
 }
-.firstPage {
-    margin-top: 60px;
-}
+
 .firstPage h5 {
     font-weight: 600;
     line-height: 22px;
@@ -77,8 +75,19 @@ h5 {
     font-weight: 700;
    
 }
-.firstPage .vectorOne {
-    background-image: url(lineTwo.png);
+.firstPage .parent {
+    
+    position: relative;
+}
+.parent .vectorOne {
+    position: relative;
+    height: 710px;
+    width: 500px;
+}
+.parent .founderAlbum {
+    position: absolute;
+    top: 30px;
+    left: 30px;
 }
 
 .firstPage .aboutFounder p {

@@ -19,9 +19,12 @@ export default function(Welcome) {
                     <img src="/images/icons.svg" alt="brand-visibility" className="icons" />
                     <div className="callToAction mt-4">Become a collaborator today</div>
                 </div>
-                <div className="col-md-6 vectorOne">
-                    
-                    <img src= "/images/sectionOnePic.png" alt= "founderAlbum" className="img-fluid"/>
+                <div className="col-md-6  ">
+                    <div className="parent">
+
+                    <img src= "/images/lineTwo.png" alt= "Album" className="vectorOne"/>
+                    <img src= "/images/sectionOnePic.png" alt= "founderAlbum" className="img-fluid founderAlbum "/>
+                    </div>
                 </div>
                 <div></div>
                 <div className="col-md-6">
