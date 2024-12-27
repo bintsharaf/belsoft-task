@@ -20,6 +20,16 @@ h5 {
     font-size: 18px;
 }
 
+.firstPage .firstP-section {
+   
+    background-image: url(/images/sectionOnePic.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 1040px 1295px;
+    padding: 0;
+    
+}
 .firstPage h5 {
     font-weight: 600;
     line-height: 22px;
@@ -27,13 +37,15 @@ h5 {
     height: 22px;
     font-size: 14px;
     color: #000000;
+    margin-top: 155px;
 }
 .firstPage h2 {
     font-weight: 700;
     width: 822px;
     height: 63px;
-    font-size: 41px;
+    font-size: 43px;
     position: relative;
+    
     color: var(--bold-brand-color);
 }
 .firstPage p {
@@ -60,8 +72,8 @@ h5 {
     text-shadow: 0 4px 4px #00000040;
 }
 .firstPage .icons {
-    max-height: 55px;
-    margin-top: 70px;
+    max-height: 60px;
+    margin-top: 135px;
 }
 .btn-branding .doubleArrow {
     max-height: 27px;
@@ -69,26 +81,14 @@ h5 {
 .firstPage .callToAction {
     font-size: 10px;
     font-weight: 700;
+    margin-bottom: 55px;
 }
 .firstPage h3 {
     font-size: 25px;
     font-weight: 700;
    
 }
-.firstPage .parent {
-    
-    position: relative;
-}
-.parent .vectorOne {
-    position: relative;
-    height: 710px;
-    width: 500px;
-}
-.parent .founderAlbum {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
+
 
 .firstPage .aboutFounder p {
     font-size: 22px;

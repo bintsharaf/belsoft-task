@@ -1,31 +1,32 @@
 import React from "react";
 import "./Welcome.css";
+import Header from "./Header.jsx"
 
 
 
 
 export default function(Welcome) {
     return (<div className="Welcome">
+        
         <div className="body" >
         
        <div className="firstPage">
+        
             <div className="row">
-                <div className="col-md-6 mt-4">
+                
+                <div className="col-md-12 mt-4 firstP-section">
+                    <Header />
+                    <div>
                    <h5>Join our premier monthly meetup for startup founders and tech visionaries</h5>
                     <h2 >Connect, Collaborate, Innovate!</h2>
                     <p className="mb-5">Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. Whether you're a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.</p>
-                    <a href="/" className="btn btn-branding mb-3">Register For Our Next Event <img src="/images/doubleArrow.svg" alt="double-Arrow" className="doubleArrow"/></a>
+                    <a href="/" className="btn btn-branding mb-4">Register For Our Next Event <img src="/images/doubleArrow.svg" alt="double-Arrow" className="doubleArrow"/></a>
                     <h6 >Join Us for our next meetup on the 26th of July 2024</h6>
                     <img src="/images/icons.svg" alt="brand-visibility" className="icons" />
                     <div className="callToAction mt-4">Become a collaborator today</div>
                 </div>
-                <div className="col-md-6  ">
-                    <div className="parent">
-
-                    <img src= "/images/lineTwo.png" alt= "Album" className="vectorOne"/>
-                    <img src= "/images/sectionOnePic.png" alt= "founderAlbum" className="img-fluid founderAlbum "/>
-                    </div>
                 </div>
+                
                 <div></div>
                 <div className="col-md-6">
                     <img src= "/images/sectionTwoPic.png" alt="groupPicture" className="img-fluid"/>

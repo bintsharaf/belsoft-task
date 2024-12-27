@@ -18,8 +18,8 @@ nav {
     border-top: 0.5px solid rgb(117, 104, 126, 0.4);
     background-color: #FDF7FF;
     width: 100%;
-    margin: 20px 0;
-    padding: 5px 60px ;
+    margin-top: -5px ;
+    padding-top: 5px;
 }
 
 nav ul {
