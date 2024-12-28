@@ -65,11 +65,12 @@ export default function(Welcome) {
                     <img src="/images/sectionThreePics.png" alt="brandMission" className="img-fluid"/>
                 </div>
                 <div className="col-md-6 second-content">
-                    
+                    <div>
                     <div className="title">How To Sponsor</div>
                     <p><i>Ready to Make an Impact?</i></p>
                     <h5>Fill out the form below or contact us at [contact email/phone number] to learn more about how you can sponsor the next Founders Friday</h5>
                     <Form />
+                    </div>
                </div>
             </div>
             
