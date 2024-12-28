@@ -1,7 +1,9 @@
 :root {
     --text-color: #000000;
     --light-brand-color: #9524FF;
+    --mid-brand-color: #A649FF;
     --bold-brand-color: #5C00B3;
+    --secondary-color: #EBE9ED;
 }
 
 .Welcome {
@@ -105,7 +107,7 @@ h5 {
 
 .firstPage .aboutFounder .register-btn {
     color: white;   
-    background-color: #A649FF;
+    background-color: var(--mid-brand-color);
     border-radius: 40px; 
     font-size: 17px;
     font-weight: 600;
@@ -113,8 +115,8 @@ h5 {
     margin-right: 30px;
 }
 .firstPage .aboutFounder .donate-btn {
-    color: #A649FF;
-    border: 3px solid #A649FF;
+    color: var(--mid-brand-color);
+    border: 3px solid var(--mid-brand-color);
     border-radius: 40px;
     font-size: 17px;
     font-weight: 600;
@@ -156,14 +158,14 @@ h5 {
     background-position: right top;
     background-repeat: no-repeat;
     background-attachment: local;
-    background-size: 1323px 1155px;
+    background-size: 1300px 1157px;
     padding: 0;
 }
 
 .thirdPage h4 {
     font-weight: 700;
     color: var(--bold-brand-color);
-    font-size: 27px;
+    font-size: 24px;
 }
 .thirdPage h1 {
     margin-left: 395px;
@@ -191,4 +193,31 @@ h5 {
    line-height: 1.5;
    margin-top: 10px;
    margin-bottom: 15px;
+}
+.fourthPage {
+    background-image: url(/images/fourthPage-backgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+}
+.fourthPage  h2{
+    color: var(--secondary-color);
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.fourthPage p {
+    color: var(--secondary-color);
+    font-weight: 400;
+    line-height: 28px;
+}
+.fourthPage .reg-btn {
+    color: var(--mid-brand-color);
+    border: 2px solid var(--mid-brand-color);
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin-bottom: 70px;
 }
