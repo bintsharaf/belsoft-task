@@ -1,6 +1,7 @@
 import React from "react";
 import "./Welcome.css";
-import Header from "./Header.jsx"
+import Header from "./Header.jsx";
+import Form from "./Form.jsx";
 
 
 
@@ -64,37 +65,12 @@ export default function(Welcome) {
                     <img src="/images/sectionThreePics.png" alt="brandMission" className="img-fluid"/>
                 </div>
                 <div className="col-md-6 second-content">
+                    
                     <div className="title">How To Sponsor</div>
                     <p><i>Ready to Make an Impact?</i></p>
                     <h5>Fill out the form below or contact us at [contact email/phone number] to learn more about how you can sponsor the next Founders Friday</h5>
-                    <form action="">
-                        <div className="individualDetails d-flex">
-                            <div className="nameInput">
-                                <div>Name</div>
-                                <input type="text" placeholder="Full name"/>
-                                
-                            </div>
-                            <div className="nameInput">
-                                <div>Company (optional)</div>
-                                <input type="text" placeholder="Company name"/>
-                                
-                            </div>
-                        </div>
-                        <div className="contactDetails d-flex">
-                            <div className="emailInput">
-                                <div>Email</div>
-                                <input type="email" name="/" id="/" placeholder="Email address" />
-                                
-                            </div>
-                            <div className="numberInput">
-                                <div>Phone</div>
-                                <input type="text" placeholder="Phone number"/>
-                               
-                            </div>
-                        </div>
-                        <a href="http://" target="_blank" rel="noopener noreferrer" className="btn">Sponsor</a>
-                    </form>
-                </div>
+                    <Form />
+               </div>
             </div>
             
        </div>
