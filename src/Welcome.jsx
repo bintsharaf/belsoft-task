@@ -30,14 +30,16 @@ export default function(Welcome) {
                 
                 <div></div>
                 <div className="col-md-6">
+                    <div className="secondP-section">
                     <img src= "/images/sectionTwoPic.png" alt="groupPicture" className="img-fluid"/>
+                    </div>
                 </div>
                 <div className="col-md-6 aboutFounder d-flex justify-content-center p-4">
                     <div ><img src= "/images/lineOne.png" alt="line" className="line mt-2" />
                     </div>
                     <div>
                     <h3>Who Are We?</h3>
-                    <p className="mt-5 ">Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders, innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
+                    <p className=" ">Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders, innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
                     <div className="btns">
                         <a href="/" className="btn register-btn">Register <i class="fa-solid fa-arrow-right"></i></a>
                         <a href="http://"  className="btn donate-btn" target="_blank" rel="noopener noreferrer">Donate</a>
@@ -65,7 +67,7 @@ export default function(Welcome) {
                     <img src="/images/sectionThreePics.png" alt="brandMission" className="img-fluid"/>
                 </div>
                 <div className="col-md-6 second-content">
-                    <div>
+                    <div className="second-content-details">
                     <div className="title">How To Sponsor</div>
                     <p><i>Ready to Make an Impact?</i></p>
                     <h5>Fill out the form below or contact us at [contact email/phone number] to learn more about how you can sponsor the next Founders Friday</h5>
