@@ -126,11 +126,9 @@ h5 {
     font-weight: 700;
     margin-top: 148px;
 }
-.secondPage {
-    margin-top: 160px;
 
-}
 .secondPage h4 {
+    margin-top: 430px;
     font-size: 23px;
     font-weight: 700;
     color: var(--bold-brand-color);
@@ -152,4 +150,39 @@ h5 {
     color: white;
     border-radius: 10px;
     padding: 15px 25px;
+    margin-bottom: 230px;
+}
+.secondPage .secondPageContent {
+    background-image: url(/images/sectionTwoPics.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 1323px 1155px;
+    padding: 0;
+}
+.thirdPage h4 {
+    font-weight: 700;
+    color: var(--bold-brand-color);
+    font-size: 27px;
+}
+.thirdPage h1 {
+    margin-left: 395px;
+    width: 489px;
+    height: 138px;
+    font-weight: 700;
+}
+.thirdPage .second-content .title {
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.thirdPage .second-content p {
+    font-weight: 400;
+    color: #605668;
+}
+.thirdPage .second-content h5 {
+    color: #2C2830;
+    font-size: 10px;
+    width: 120px;
+    height: 120px;
 }
