@@ -251,6 +251,7 @@ h5 {
     font-weight: 600;
     margin-bottom: 0;
 }
+
 .sixthPage h5 {
     font-weight: 600;
     font-size: 13px;
@@ -269,4 +270,26 @@ h5 {
     font-size: 35px;
     font-weight: 700;
     margin-top: 120px;
+}
+.seventhPage p {
+    margin-bottom: 0;
+}
+
+.seventhPage .indication ul li {
+    margin-right: 15px;
+    float: right;
+    display: block;
+    list-style-type: none;
+    color: var(--text-color);
+    border: 3.06px solid #E2A7F7;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #FDF7FF;
+    padding-top: 15px;
+}
+.seventhPage .indication ul li a{
+    font-size: 24px;
+    color: var(--text-color);
+   
 }

@@ -113,12 +113,18 @@ export default function(Welcome) {
             </div>
             <div className="seventhPage">
                 <div className="row">
-                    
-                
-            <div className="col-12 text-center">
+                     <div className="col-12 text-center">
                 <h3>What Do Our Attendees Have To Say?</h3>
-                <p>Well See For Yourself</p>
-                <img src="/images/testimonyPics.png" alt="testimonyPics" />
+                <p>
+                    Well See For Yourself
+                </p>
+                <div className="indication ">
+                    <ul>
+                        <li><a href="/"><i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="/"><i class="fa-solid fa-arrow-left"></i></a></li>
+                    </ul>
+                </div>
+                <img src="/images/testimonyPics.png" alt="testimonyPics" className="img-fluid"/>
             </div>
             <h3>FAQs</h3>
             <div className="col-md-6">
