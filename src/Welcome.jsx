@@ -2,7 +2,7 @@ import React from "react";
 import "./Welcome.css";
 import Header from "./Header.jsx";
 import Form from "./Form.jsx";
-import Animation from "./Animation.jsx";
+import Animated from "./Animated.jsx";
 
 
 
@@ -82,7 +82,7 @@ export default function(Welcome) {
         
             <div className="col-md-6">
                 <h2>Founders Friday is coming to</h2>
-                <Animation />
+                <Animated />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac rutrum felis. Nulla nibh lorem, facilisis vel est at, vehicula dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
                 <a href="http://" target="_blank" rel="noopener noreferrer" className="btn reg-btn">Register <i class="fa-solid fa-arrow-right"></i></a>
             </div>
