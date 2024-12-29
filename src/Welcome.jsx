@@ -142,24 +142,35 @@ export default function(Welcome) {
             </div>
        </div>
        <div className="footer">
-           <img src="/" alt="founderlogo" />
-            <h3>Want To Be A Part Of Abuja’s Biggest Tech Community?</h3>
-            <a href="/" className="btn">Register For Our Next Event</a>
-            <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
-
+        <hr />
+            <img src = "/images/founderLogo.png " className= "logo mt-0" alt="founderLogo" />
+            <h3>Want To Be A Part Of Abuja’s Biggest Tech <br /> Community?</h3>
+            <div className="center-button ">
+                
+            <a href="/" className="btn btn-branding mt-3  ">Register For Our Next Event <img src="/images/doubleArrow.svg" alt="double-Arrow" className="doubleArrow"/></a>
+              </div>
+              <hr />
+              <div className="footer-links">
+                <ul className="social-links ">
+                    <li><a href="/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="/"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            </div>
        </div>
       
         

@@ -293,3 +293,56 @@ h5 {
     color: var(--text-color);
    
 }
+.footer h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.footer .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer  .btn-branding {
+
+     font-weight: 400;
+     font-size: 20px;
+     color: var(--light-brand-color);
+     border-radius: 40px;
+     border: 2px solid var(--light-brand-color);
+     padding: 10px 20px;
+     margin-bottom: 70px;
+ }
+ .footer .nav li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+
+}
+.footer .nav .nav-item .active {
+
+    color: var(--brand-color);
+}
+.footer .footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-links .social-links {
+    margin-top: 7px;
+    padding: 0;
+}
+.footer .footer-links .social-links  li {
+    border-radius: 50%;
+    list-style-type: none;
+    display: inline;
+    
+    margin-right: 10px;
+    padding: 7px 10px;
+    background-color: var(--light-brand-color) ;
+}
+.footer .footer-links .social-links li a {
+    font-size: 16px;
+    color: #FDF7FF;
+
+}
