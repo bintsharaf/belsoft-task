@@ -92,24 +92,33 @@ export default function(Welcome) {
             </div>
             </div>
             <div className="fifthPage">
+                <div className="row">
             <div className="col-12 text-center">
                 <h3>Register And Be Part of Our Community</h3>
-                <p>Join our community of over 1000+ founders, developers, and tech junkies in general.Be inspired by people who live to inspire!</p>
-                <img src="/" alt="founderFaces" />
-                <a href="/" className="btn">Register Now</a>
+                <p>Join our community of over 1000+ founders, developers, and tech junkies in general. <br /> Be inspired by people who live to inspire!</p>
+                <img src="/images/banner.png" alt="founderFaces" className="img-fluid"/>
+                <a href="/" className="btn reg-btn-two">Register Now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
+            <div className="sixthPage">
+            <div className="row">
             <div className="col-md-6">
-                <img src="/" alt="meetingPic" />
+                <img src="/images/eventPics.png" alt="meetingPic" className="img-fluid"/>
             </div>
             <div className="col-md-6">
                 <p>At Founder’s Friday, Every Friday Is a Learning Experience!</p>
                 <h5>Join us in our mission to transform ideas into impact and shape the future of Nigeria’s startup landscape.</h5>
-                <a href="/" className="btn">Register </a>
+                <a href="/" className="btn register-btn">Register <i class="fa-solid fa-arrow-right"></i></a>
             </div>
+            </div>
+            </div>
+            <div className="seventhPage">
+                <div className="row">
+                    
+                
             <div className="col-12 text-center">
                 <h3>What Do Our Attendees Have To Say?</h3>
                 <p>Well See For Yourself</p>
-                <img src="/" alt="testimonyPics" />
+                <img src="/images/testimonyPics.png" alt="testimonyPics" />
             </div>
             <h3>FAQs</h3>
             <div className="col-md-6">
@@ -121,6 +130,9 @@ export default function(Welcome) {
                 <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a> <br />
                 <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a> <br />
                 <a href="/">Lorem ipsum dolor sit amet, consectetur adi elit.</a>
+            </div>
+            </div>
+            </div>
             </div>
        </div>
        <div className="footer">

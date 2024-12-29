@@ -222,3 +222,51 @@ h5 {
     padding: 10px 50px;
     margin-bottom: 70px;
 }
+.fifthPage {
+    margin-top: 120px;
+}
+.fifthPage h3 {
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.fifthPage p {
+    color: #8E8E93;
+    font-weight: 400;
+    font-size: 19px;
+}
+.fifthPage .reg-btn-two {
+    color: var(--mid-brand-color);
+    border: 3px solid var(--mid-brand-color);
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.sixthPage p {
+    margin-top: 100px;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.sixthPage h5 {
+    font-weight: 600;
+    font-size: 13px;
+    margin: 40px 0;
+}
+.sixthPage .register-btn {
+    color: white;
+    background-color: var(--mid-brand-color);
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin-right: 30px;
+}
+.seventhPage h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 120px;
+}
