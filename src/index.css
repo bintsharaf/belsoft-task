@@ -50,7 +50,7 @@ nav li .nav-btn {
     border: 2px solid var(--brand-color);
     color: var(--brand-color);
     border-radius: 20px;
-    margin-left: 50px;
+   
 }
 nav a:hover,
 nav li.active a {
