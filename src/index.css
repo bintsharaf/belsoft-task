@@ -23,7 +23,7 @@ nav {
 
 nav ul {
     margin: 0;
-    padding: 0;
+    padding-top:5px;
     list-style-type: none;
 }
 
@@ -56,12 +56,31 @@ nav li.active a {
     color: var(--brand-color);
 }    
 @media (max-width: 900px) {
+    .logo {
+            max-height: 40px;
+    
+        }
+    nav {
+        padding: 0;
+        max-width: 100%;
+    }
     nav a {
-    font-size: 12px;
-    margin-left: 10px;
-}
-nav li .nav-btn {
+    font-size: 10px;
+    margin-left: 5px;
+    }
+    nav ul {
+    padding-top: 4px;
+    padding-left: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-left: 5px;
    
-    font-size: 12px;
+
+
 }
+    nav li .nav-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    }
 }
