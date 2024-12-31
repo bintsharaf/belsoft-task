@@ -6,7 +6,7 @@ export default function(Header) {
         <div className="Header">
              <nav className="d-flex justify-content-between ">
             <   img src = "/images/founderLogo.png " className= "logo d-none d-md-block" alt="founderLogo" />
-                <img src = "/images/small-Logo.png " className= "logo d-block d-md-none" alt="founderLogo" />
+                <img src = "/images/small-logo.png " className= "logo d-block d-md-none" alt="founderLogo" />
                 <ul>
                     <li className="active"><a href="/">Home</a></li>
                     <li><a href="/">About Us</a></li>
