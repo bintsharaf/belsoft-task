@@ -106,39 +106,43 @@
 }
 
 .secondPage h4 {
-    margin-top: 430px;
-    font-size: 23px;
+    margin-top: 310px;
+    font-size: 25px;
     font-weight: 700;
     color: var(--bold-brand-color);
 }
 .secondPage h1 {
     font-weight: 700;
-    width: 580px;
-    height: 138px;
+    font-size: 29px;
     color: #000000;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 .secondPage p {
     font-weight: 400;
-    width: 560px;
-    height: 174px;
+    font-size: 20px;
+   
 }
 .secondPage .learn-btn {
     background-color: var(--light-brand-color);
     color: white;
     border-radius: 10px;
     padding: 15px 25px;
-    margin-bottom: 230px;
+    
 }
 .secondPage .secondPageContent {
     background-image: url(/images/sectionTwoPics.png);
     background-position: right top;
     background-repeat: no-repeat;
     background-attachment: local;
-    background-size: 1300px 1157px;
+    background-size: 100% 100%;
+    width: 100%;
+    height:900px;
     padding: 0;
 }
-
+.thirdPage {
+    margin: 0;
+    padding: 0;
+}
 .thirdPage h4 {
     font-weight: 700;
     color: var(--bold-brand-color);
@@ -146,8 +150,8 @@
 }
 .thirdPage h1 {
     margin-left: 395px;
-    width: 489px;
-    height: 138px;
+    
+    
     font-weight: 700;
 }
 .thirdPage .second-content .second-content-details {
@@ -400,5 +404,33 @@
        border-radius: 16px;
        font-size: 14px;
        padding: 5px 10px;
+   }
+   .secondPage .secondPageContent {
+       background-image: none;
+   }
+   .secondPage h4 {
+       margin-top: 20px;
+       font-size: 16px;
+       margin-bottom: 0;
+          }
+
+   .secondPage h1 {
+       font-weight: 700;
+       font-size: 20px;
+       color: #000000;
+       margin-bottom: 15px;
+   }
+
+   .secondPage p {
+       
+       font-size: 15px;
+
+   }
+
+   .secondPage .learn-btn {
+       
+       
+       padding: 5px 10px;
+       
    }
 }
