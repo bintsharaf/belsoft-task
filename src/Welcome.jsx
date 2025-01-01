@@ -66,11 +66,11 @@ export default function(Welcome) {
             <div className="col d-none d-lg-block"></div>
         </div>
     </div>    
-       <div className="thirdPage">
+       <div className="thirdPage d-none d-lg-block">
            <h4>Sponsor The Next Friday</h4> 
            <h1>Why Sponsor Founders Friday?</h1>
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 d-none d-lg-block">
                     <img src="/images/sectionThreePics.png" alt="brandMission" className="img-fluid"/>
                 </div>
                 <div className="col-md-6 second-content">
@@ -86,14 +86,14 @@ export default function(Welcome) {
        </div>
        <div className="fourthPage row">
         
-            <div className="col-6">
+            <div className="col-md-6">
                 <h2>Founders Friday is coming to</h2>
                 <Animated />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac rutrum felis. Nulla nibh lorem, facilisis vel est at, vehicula dignissim lacus. Cras sagittis imperdiet dolor, eget accumsan leo suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
                 <a href="http://" target="_blank" rel="noopener noreferrer" className="btn reg-btn">Register <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div className="col-6">
-                <img src="/images/small-logo.png" alt="logo" className="img-fluid d-none d-lg-block " />
+            <div className="col-md-6">
+                <img src="/images/small-logo.png" alt="logo" className="img-fluid d-none d-md-block " />
            
             </div>
             </div>

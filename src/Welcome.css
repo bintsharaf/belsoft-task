@@ -149,14 +149,12 @@
     font-size: 24px;
 }
 .thirdPage h1 {
-    margin-left: 395px;
-    
+    font-size: 30px;
+    text-align: center;
     
     font-weight: 700;
 }
-.thirdPage .second-content .second-content-details {
-    margin-left: 50px;
-}
+
 .thirdPage .second-content .title {
     font-weight: 700;
     font-size: 18px;
@@ -170,7 +168,7 @@
 .thirdPage .second-content h5 {
     color: #605668;
     font-size: 14px;
-    width: 516px;
+    
    line-height: 1.5;
    margin-top: 10px;
    margin-bottom: 15px;
@@ -407,6 +405,8 @@
    }
    .secondPage .secondPageContent {
        background-image: none;
+       height: 450px;
+        padding: 0;
    }
    .secondPage h4 {
        margin-top: 20px;
@@ -432,5 +432,31 @@
        
        padding: 5px 10px;
        
+   }
+   .thirdPage h4 {
+       font-weight: 700;
+       color: var(--bold-brand-color);
+       font-size: 16px;
+   }
+
+   .thirdPage h1 {
+       font-size: 20px;
+   }
+   
+
+   .thirdPage .second-content .title {
+       
+       font-size: 14px;
+       padding-top: 5px;
+   }
+   
+
+   .thirdPage .second-content h5 {
+       
+       font-size: 12px;
+       
+       line-height: 1.5;
+       margin-top: 5px;
+       margin-bottom: 10px;
    }
 }

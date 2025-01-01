@@ -3,9 +3,9 @@ import "./Form.css";
 
 export default function(Form) {
     return (
-        <div className="Form">
+        <div className="Form ">
             <form action="/">
-                        <div className="individualDetails d-flex">
+                        <div className="individualDetails d-flex ">
                             <div className="nameInput">
                                 
                                 <label htmlFor="fname" className="mb-1"><strong>Name</strong></label> <br />

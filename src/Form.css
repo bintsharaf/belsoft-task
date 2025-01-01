@@ -16,7 +16,7 @@ Form {
 .individualDetails .nameInput,
 .contactDetails .emailInput
  {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .individualDetails .nameInput input,
 .individualDetails .companyInput input,
@@ -24,7 +24,7 @@ Form {
 .contactDetails .numberInput input
  {
     border: 1px solid #121212;
-    padding: 15px 20px;
+    padding: 10px 10px;
     border-radius: 8px;
 }
  
@@ -33,6 +33,33 @@ form .sponsor-btn {
     background-color: var(--light-brand-color);
     color: white;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 15px 15px;
     margin-bottom: 230px;
+}
+@media (max-width: 900px) {
+.individualDetails,
+    .contactDetails {
+        margin-bottom: 10px;
+
+    }
+
+    .individualDetails .nameInput,
+    .contactDetails .emailInput {
+        margin-right: 5px;
+    }
+        .individualDetails .nameInput input,
+        .individualDetails .companyInput input,
+        .contactDetails .emailInput input,
+        .contactDetails .numberInput input {
+            border: 1px solid #121212;
+            padding: 10px 10px;
+            border-radius: 8px;
+        }
+    
+    
+        form .sponsor-btn {
+            
+            padding: 5px 10px;
+            margin-bottom: 230px;
+        }
 }
