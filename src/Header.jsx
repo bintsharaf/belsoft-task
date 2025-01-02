@@ -4,7 +4,7 @@ import './index.css'
 export default function(Header) {
     return (
         <div className="Header">
-             <nav className="d-flex justify-content-between ">
+             <nav className="d-flex justify-content-between fixed-top mt-3 ">
             <   img src = "/images/founderLogo.png " className= "logo d-none d-md-block" alt="founderLogo" />
                 <img src = "/images/small-logo.png " className= "logo d-block d-md-none" alt="founderLogo" />
                 <ul>
