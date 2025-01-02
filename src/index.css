@@ -19,6 +19,8 @@ nav {
     background-color: #FDF7FF;
     width: 100%;
     padding: 20px 0;
+    position: sticky;
+    overflow: hidden;
 }
 
 nav ul {
@@ -39,6 +41,7 @@ nav li a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
+    
 
 }
 
@@ -65,22 +68,23 @@ nav li.active a {
         max-width: 100%;
     }
     nav a {
-    font-size: 10px;
+    font-size: 8px;
     margin-left: 5px;
     }
     nav ul {
-    padding-top: 4px;
+    padding-top: 7px;
     padding-left: 0;
     }
     nav ul li {
     display: inline;
-    margin-left: 5px;
+    margin-left: 4px;
    
 
 
 }
     nav li .nav-btn {
+border: 1px solid var(--brand-color);
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 8px;
     }
 }

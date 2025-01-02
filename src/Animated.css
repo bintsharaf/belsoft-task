@@ -59,3 +59,8 @@ body {
         transform: translateY(-100%)
     }
 }
+@media (max-width: 900px) {
+    .wrapper ul li span {
+        font-size: 80px;
+    }
+}

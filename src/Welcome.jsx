@@ -25,7 +25,7 @@ export default function(Welcome) {
                     <a href="/" className="btn btn-branding mb-3">Register For Our Next Event <img src="/images/doubleArrow.svg" alt="double-Arrow" className="doubleArrow"/></a>
                     <h6 >Join Us for our next meetup on the 26th of July 2024</h6>
                     <img src="/images/icons.svg" alt="brand-visibility" className="icons" />
-                    <div className="callToAction mt-4">Become a collaborator today</div>
+                    <div className="callToAction mt-4">Become a collaborator today <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
                 </div>
                 </div>
                 <div className="col d-none d-lg-block firstP-section-pic">
@@ -47,7 +47,7 @@ export default function(Welcome) {
                     <p >Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders, innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
                     <div className="btns">
                         <a href="/" className="btn register-btn">Register <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="http://"  className="btn donate-btn" target="_blank" rel="noopener noreferrer">Donate</a>
+                        <a href="http://"  className="btn donate-btn" target="_blank" rel="noopener noreferrer">Donate <i class="fa-solid fa-sack-dollar"></i></a>
                     </div>
                     <div className="firstLastPara d-none d-lg-block">Founder's Friday is more than just a meetup — it's a movement.</div>
                     </div>
@@ -124,7 +124,7 @@ export default function(Welcome) {
                 <p>
                     Well See For Yourself
                 </p>
-                <div className="indication ">
+                <div className="indication d-none d-lg-block">
                     <ul>
                         <li><a href="/"><i class="fa-solid fa-arrow-right"></i></a></li>
                         <li><a href="/"><i class="fa-solid fa-arrow-left"></i></a></li>
@@ -168,7 +168,7 @@ export default function(Welcome) {
 </div>
                 
             </div>
-            <div className="col-md-6 d-none d-lg-block ">
+            <div className="col-md-6 d-none d-md-block ">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -209,14 +209,14 @@ export default function(Welcome) {
        <div className="footer">
         <hr />
             <img src = "/images/founderLogo.png " className= "logo mt-0" alt="founderLogo" />
-            <h3>Want To Be A Part Of Abuja’s Biggest Tech <br /> Community?</h3>
+            <h3>Want To Be A Part Of Abuja’s Biggest Tech Community?</h3>
             <div className="center-button ">
                 
             <a href="/" className="btn btn-branding mt-3  ">Register For Our Next Event <img src="/images/doubleArrow.svg" alt="double-Arrow" className="doubleArrow"/></a>
               </div>
               <hr />
-              <div className="footer-links">
-                <ul className="social-links d-none d-lg-block ">
+              <div className="footer-links d-none d-md-flex">
+                <ul className="social-links  ">
                     <li><a href="/"><i class="fa-brands fa-facebook"></i></a></li>
                     <li><a href="/"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a href="/"><i class="fa-brands fa-twitter"></i></a></li>

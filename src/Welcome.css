@@ -9,6 +9,9 @@
 .Welcome {
     font-family: "Montserrat", serif;
 }
+.body {
+    margin-top: 20px;
+}
 
 .firstPage .firstP-section {
    
@@ -21,18 +24,18 @@
     line-height: 22px;
    
    
-    font-size: 12px;
+    font-size: 10px;
     color: #000000;
     
 }
 .firstPage h2 {
     font-weight: 700;
     
-    font-size: 32px;
+    font-size: 27px;
     color: var(--bold-brand-color);
 }
 .firstPage p {
-    font-size: 24px;
+    font-size: 15x;
     font-weight: 400;
     line-height: 36px;
     margin-top: 20px;
@@ -71,7 +74,7 @@
 
 
 .firstPage .aboutFounder p {
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
     
     line-height: 28px;
@@ -88,21 +91,21 @@
     border-radius: 40px; 
     font-size: 17px;
     font-weight: 600;
-    padding: 10px 50px;
+    padding: 10px 30px;
     margin-right: 30px;
 }
 .firstPage .aboutFounder .donate-btn {
     color: var(--mid-brand-color);
-    border: 3px solid var(--mid-brand-color);
+    border: 2px solid var(--mid-brand-color);
     border-radius: 40px;
     font-size: 17px;
     font-weight: 600;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 .firstPage .aboutFounder .firstLastPara {
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 700;
-    margin-top: 125px;
+    margin-top: 156px;
 }
 
 .secondPage h4 {
@@ -119,7 +122,7 @@
 }
 .secondPage p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
    
 }
 .secondPage .learn-btn {
@@ -225,16 +228,17 @@
     margin-bottom: 120px;
 }
 .sixthPage p {
-    margin-top: 100px;
+    margin-top: 60px;
     color: var(--text-color);
     font-weight: 600;
+    font-size: 20px;
     margin-bottom: 0;
 }
 
 .sixthPage h5 {
     font-weight: 600;
-    font-size: 13px;
-    margin: 40px 0;
+    font-size: 16px;
+    margin: 20px 0;
 }
 .sixthPage .register-btn {
     color: white;
@@ -253,7 +257,7 @@
 }
 .seventhPage .accordion {
     margin-bottom: 60px;
-    
+    font-size: 20px;
 }
 .seventhPage .accordion .accordion-item .accordion-header .accordion-button{
     
@@ -272,10 +276,10 @@
     color: var(--text-color);
     border: 3.06px solid #E2A7F7;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: #FDF7FF;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .seventhPage .indication ul li a{
     font-size: 24px;
@@ -284,7 +288,7 @@
 }
 .footer h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     margin-top: 50px;
     
@@ -337,9 +341,12 @@
 
 }
 @media (max-width: 900px) {
+    .body {
+        margin-top: 10px;
+    }
     .firstPage  {
         margin-top: 30px;
-        
+        text-align: center;
     }
     .firstPage .firstP-section {
         margin-top: 0;
@@ -360,14 +367,16 @@
     }
         .firstPage .btn-branding {
             font-weight: 400;
-            font-size: 20px;
+            font-size: 15px;
             padding: 5px 10px;
+            font-size: 12px;
         }
         .firstPage h6 {
-            font-size: 11px;
+            font-size: 9px;
         }
         .btn-branding .doubleArrow {
             max-height: 20px;
+
 }
         .firstPage .icons {
             max-height: 40px;
@@ -377,6 +386,9 @@
        
        margin-bottom: 15px;
    }
+   .firstPage .callToAction a {
+    color: var(--text-color);
+   }
    .firstPage h3 {
        font-size: 20px;
 
@@ -385,7 +397,7 @@
     display: block;
    }
    .firstPage .aboutFounder p {
-       font-size: 15px;
+       font-size: 12px;
        
        line-height: 20px;
        
@@ -393,15 +405,20 @@
    }
    .firstPage .aboutFounder .register-btn {
        border-radius: 16px;
-       font-size: 14px;
+    border: 1px solid var(--light-brand-color);
+       font-size: 12px;
        padding: 5px 10px;
        margin-right: 15px;
    }
 
    .firstPage .aboutFounder .donate-btn {
        border-radius: 16px;
-       font-size: 14px;
+    border: 1px solid var(--light-brand-color);
+       font-size: 12px;
        padding: 5px 10px;
+   }
+   .secondPage {
+    text-align: center;
    }
    .secondPage .secondPageContent {
        background-image: none;
@@ -409,27 +426,27 @@
         padding: 0;
    }
    .secondPage h4 {
-       margin-top: 20px;
+       margin-top: 30px;
        font-size: 16px;
-       margin-bottom: 0;
+       margin-bottom: 10px;
           }
 
    .secondPage h1 {
        font-weight: 700;
-       font-size: 20px;
+       font-size: 12px;
        color: #000000;
-       margin-bottom: 15px;
+       margin-bottom: 0;
    }
 
    .secondPage p {
-       
-       font-size: 15px;
-
+       padding: 0;
+       font-size: 12px;
+        color: #8E8E93;
    }
 
    .secondPage .learn-btn {
        
-       
+    font-size: 12px;
        padding: 5px 10px;
        
    }
@@ -459,4 +476,98 @@
        margin-top: 5px;
        margin-bottom: 10px;
    }
+   .fourthPage h2 {
+       
+       margin-top: 40px;
+       font-size: 16px;
+       
+   }
+
+   .fourthPage p {
+       font-size: 12px;
+   }
+
+   .fourthPage .reg-btn {
+      
+       border: 1px solid var(--mid-brand-color);
+       border-radius: 20px;
+    font-size: 12px;
+       
+       padding: 10px 20px;
+       margin-bottom: 70px;
+   }
+   .fifthPage h3 {
+    font-size: 16px;
+   }
+   .fifthPage p {
+    font-size: 12px;
+   }
+   .fifthPage .reg-btn-two {
+    border: 1px solid var(--mid-brand-color);
+       border-radius: 20px;
+       font-size: 12px;
+       
+       padding: 5px 10px;
+       margin-top: 30px;
+       margin-bottom: 80px;
+   }
+   .sixthPage {
+    text-align: center;
+   }
+   .sixthPage p {
+       margin-top: 40px;
+       
+       font-size: 12px;
+       margin-bottom: 0;
+   }
+   .sixthPage h5 {
+        color: #8E8E93;
+    font-size: 12px;
+       margin: 20px 0;
+   }
+   .sixthPage .register-btn {
+    
+    border-radius: 15px;
+    font-size: 12px;
+   
+    padding: 5px 10px;
+    
+}
+.seventhPage h3 {
+    font-size: 16px;
+   
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.footer h3 {
+   
+    font-size: 14px;
+    
+    margin-top: 50px;
+
+}
+.footer .btn-branding {
+
+   
+    font-size: 12px;
+    
+    border-radius: 20px;
+    border: 1px solid var(--light-brand-color);
+    padding: 5px 10px;
+    margin-bottom: 70px;
+}
+.footer .btn-branding .doubleArrow {
+    max-height: 20px;
+    
+}
+.footer .nav li a {
+    font-size: 9px;
+    
+    
+}
+.footer .nav   {
+    padding-top: 2px;
+    padding-left: 0;
+}
+
 }
